@@ -45,13 +45,17 @@
 // My code 
 
 import React from 'react'
+
+// Import Weather Component 
 import Weather from './components/Weather'
 
 const App = () => {
   return (
     <div className='app'>
+
       {/* Mount Weather Component  */}
       <Weather /> 
+
     </div>
   )
 }
