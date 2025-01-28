@@ -42,13 +42,14 @@
 
 
 
-// My code 
+// code 
 
 import React from 'react'
 
 // Import Weather Component 
 import Weather from './components/Weather'
 
+// App Component 
 const App = () => {
   return (
     <div className='app'>
@@ -60,4 +61,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
